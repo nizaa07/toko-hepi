@@ -1,9 +1,8 @@
-
 # Technical Test Frontend
 
 Nama : Toko Hepi
 
-Platform Management Produk
+Dashboard Management Produk, data bersumber dari dummyJSON
 
 
 ## Tech Stack
@@ -27,7 +26,7 @@ Platform Management Produk
 
 Untuk menjalankan project ini, anda perlu menambahkan environtment variable di file .env
 
-`VITE_API_URL` 
+`VITE_API_URL`
 
 
 
@@ -40,4 +39,14 @@ Tata Cara Instalasi Depedensi dan Menjalankan Project
   npm install / yarn
   yarn dev
 ```
-    
+
+## Issues
+
+Login tidak dapat dijalankan karena API untuk login memblokir akses lewat CORS jika menggunakan credentials, halaman login dapat diakses dengan route /login
+
+
+## Related
+
+Sumber yang berkaitan dengan projek
+
+[dummyJSON](https://dummyjson.com/)
